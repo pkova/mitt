@@ -23,7 +23,7 @@ goog.addDependency("../com/cognitect/transit.js", ['com.cognitect.transit'], ['c
 goog.addDependency("../cognitect/transit.js", ['cognitect.transit'], ['com.cognitect.transit.eq', 'cljs.core', 'com.cognitect.transit.types', 'com.cognitect.transit', 'goog.math.Long']);
 goog.addDependency("../om/transit.js", ['om.transit'], ['cljs.core', 'cognitect.transit', 'om.tempid', 'com.cognitect.transit']);
 goog.addDependency("../om/next.js", ['om.next'], ['om.next.cache', 'clojure.zip', 'om.next.impl.parser', 'goog.string', 'goog.debug.Console', 'cljs.core', 'goog.object', 'goog.log', 'om.next.protocols', 'om.tempid', 'clojure.walk', 'om.transit', 'om.util']);
-goog.addDependency("../om_tutorial/core.js", ['om_tutorial.core'], ['goog.dom', 'cljs.core', 'om.dom', 'om.next']);
+goog.addDependency("../mitt_frontend/core.js", ['mitt_frontend.core'], ['goog.dom', 'cljs.core', 'om.dom', 'om.next']);
 goog.addDependency("../cljs/core/async/impl/protocols.js", ['cljs.core.async.impl.protocols'], ['cljs.core']);
 goog.addDependency("../cljs/core/async/impl/buffers.js", ['cljs.core.async.impl.buffers'], ['cljs.core', 'cljs.core.async.impl.protocols']);
 goog.addDependency("../cljs/core/async/impl/dispatch.js", ['cljs.core.async.impl.dispatch'], ['cljs.core', 'cljs.core.async.impl.buffers', 'goog.async.nextTick']);
@@ -40,4 +40,4 @@ goog.addDependency("../cljs/reader.js", ['cljs.reader'], ['goog.string', 'cljs.c
 goog.addDependency("../figwheel/client/socket.js", ['figwheel.client.socket'], ['cljs.core', 'figwheel.client.utils', 'cljs.reader']);
 goog.addDependency("../figwheel/client/heads_up.js", ['figwheel.client.heads_up'], ['goog.string', 'cljs.core', 'cljs.core.async', 'figwheel.client.socket', 'clojure.string']);
 goog.addDependency("../figwheel/client.js", ['figwheel.client'], ['goog.userAgent.product', 'goog.Uri', 'cljs.core', 'cljs.core.async', 'figwheel.client.file_reloading', 'figwheel.client.utils', 'cljs.repl', 'figwheel.client.heads_up', 'figwheel.client.socket', 'clojure.string']);
-goog.addDependency("../figwheel/connect.js", ['figwheel.connect'], ['cljs.core', 'om_tutorial.core', 'figwheel.client', 'figwheel.client.utils']);
+goog.addDependency("../figwheel/connect.js", ['figwheel.connect'], ['cljs.core', 'mitt_frontend.core', 'figwheel.client', 'figwheel.client.utils']);
